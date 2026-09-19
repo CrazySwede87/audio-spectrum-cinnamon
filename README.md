@@ -1,5 +1,9 @@
 # Audio Spectrum
 
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![Platform](https://img.shields.io/badge/platform-Cinnamon-green)
+
 A real-time system audio spectrum visualizer for the Cinnamon panel.
 
 Audio Spectrum displays the audio currently playing on your system directly
