@@ -1,20 +1,18 @@
 # Audio Spectrum
 
-![Version](https://img.shields.io/badge/version-1.1-blue)
+![Version](https://img.shields.io/badge/version-1.2-blue)
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Cinnamon-green)
 
 A real-time system audio spectrum visualizer for the Cinnamon desktop.
 
-Audio Spectrum displays the audio currently playing on your system directly
-in the Cinnamon panel, with multiple visualization styles and configurable
-animation settings.
+Audio Spectrum displays the audio currently playing on your system directly in the Cinnamon panel, with multiple visualization styles and configurable animation settings.
 
 ## Features
 
 - Real-time system audio visualization
 - Stereo analysis that avoids phase cancellation
-- 10 visualization styles:
+- 17 visualization styles:
   - Classic LED
   - 80s Car Stereo
   - Dot Matrix
@@ -25,6 +23,13 @@ animation settings.
   - 1980s Digital
   - Oscilloscope
   - Classic Neon
+  - Vacuum Fluorescent
+  - Amber Analyzer
+  - LED Tower
+  - Futuristic Dashboard
+  - Oscilloscope Blocks
+  - Cassette Deck
+  - Pixel Plasma
 - Adjustable number of EQ bars and audio sensitivity
 - Automatic width based on bar count, bar width and spacing
 - Automatic panel-height fitting or manually selected visualizer height
@@ -53,72 +58,35 @@ animation settings.
 - CAVA 1.0 or newer (audio analysis backend)
 - PulseAudio or PipeWire compatibility through CAVA's PulseAudio input
 
-The Easy Install package checks CAVA and can help install or update it on
-Linux Mint, Ubuntu and Debian-based systems. When a compatible system CAVA is
-not available, it can install the tested CAVA 1.0.0 release privately for the
-current user without replacing the system package.
+The Easy Install package checks CAVA and can help install or update it on Linux Mint, Ubuntu and Debian-based systems. When a compatible system CAVA is not available, it can install the tested CAVA 1.0.0 release privately for the current user without replacing the system package.
 
 ## Installation
 
 ### Easy Install
 
-For the simplest installation, download the Easy Install package from the
-[Releases](https://github.com/CrazySwede87/audio-spectrum-cinnamon/releases)
-section.
+For the simplest installation, download the Easy Install package from the [Releases](https://github.com/CrazySwede87/audio-spectrum-cinnamon/releases) section.
 
-Extract the archive and run:
+Extract the archive and run `Install Audio Spectrum.sh`.
 
-`Install Audio Spectrum.sh`
-
-The installer checks CAVA and reloads an already active Audio Spectrum applet
-after an installation or upgrade.
+The installer checks CAVA and reloads an already active Audio Spectrum applet after an installation or upgrade.
 
 ### Manual Installation
 
-Copy the folder:
-
-`audio-spectrum@crazyswede`
-
-to:
-
-`~/.local/share/cinnamon/applets/`
-
-Then add **Audio Spectrum** to the Cinnamon panel through the Applets settings.
-A compatible CAVA installation must be available in `PATH`, or at:
-
-`~/.local/lib/audio-spectrum/cava`
+Copy `audio-spectrum@crazyswede` to `~/.local/share/cinnamon/applets/`, then add **Audio Spectrum** to the Cinnamon panel through the Applets settings.
 
 ## Configuration
 
-Right-click the applet and open its settings to configure the visualization,
-number of bars, sensitivity, bar geometry, height, alignment, animation speed,
-fall speed and peak hold.
+Right-click the applet and open its settings to configure the visualization, number of bars, sensitivity, bar geometry, height, alignment, animation speed, fall speed and peak hold.
 
 ![Audio Spectrum settings](screenshots/settings.png)
 
 ## Bug reports and feature requests
 
-Report bugs or request features through
-[GitHub Issues](https://github.com/CrazySwede87/audio-spectrum-cinnamon/issues).
-
-For a bug report, include:
-
-- Linux distribution and version
-- Cinnamon version
-- CAVA version
-- Installation method
-- Steps that reproduce the problem
-- What you expected and what happened
-- Relevant log output, if available
-
-Please use the provided bug-report form when creating an issue.
+Report bugs or request features through [GitHub Issues](https://github.com/CrazySwede87/audio-spectrum-cinnamon/issues).
 
 ## License
 
 Copyright (C) 2026 CrazySwede
 
-Audio Spectrum is free software licensed under the
-GNU General Public License version 3 (GPL-3.0).
-
-See [LICENSE](LICENSE) for the full license text.
+Audio Spectrum is free software licensed under the GNU General Public License version 3 (GPL-3.0). See [LICENSE](LICENSE) for the full license text.
 
