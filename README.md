@@ -40,17 +40,25 @@ Audio Spectrum displays the audio currently playing on your system directly in t
 
 ## Screenshots
 
-### 80s Car Stereo
+### Amber Analyzer
 
-![80s Car Stereo](screenshots/80s-car-stereo.png)
+![Amber Analyzer](screenshots/amber-analyzer.png)
 
-### Classic LED
+### Cassette Deck
 
-![Classic LED](screenshots/classic-led.png)
+![Cassette Deck](screenshots/cassette-deck.png)
 
-### 1980s Digital
+### LED Tower
 
-![1980s Digital](screenshots/1980s-digital.png)
+![LED Tower](screenshots/led-tower.png)
+
+### Neon Line
+
+![Neon Line](screenshots/neon-line.png)
+
+### Pixel Plasma
+
+![Pixel Plasma](screenshots/pixel-plasma.png)
 
 ## Requirements
 
