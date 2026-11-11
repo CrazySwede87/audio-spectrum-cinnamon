@@ -1,6 +1,6 @@
 # Audio Spectrum
 
-![Version](https://img.shields.io/badge/version-1.2-blue)
+![Version](https://img.shields.io/badge/version-1.3-blue)
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
 ![Platform](https://img.shields.io/badge/platform-Cinnamon-green)
 
@@ -36,6 +36,8 @@ Audio Spectrum displays the audio currently playing on your system directly in t
 - Top, center or bottom alignment in manual-height mode
 - Selectable 20, 25, 30 or 60 FPS
 - Adjustable fall speed and optional peak hold
+- Automatic light/dark panel contrast detection with manual Light and Dark overrides
+- Theme-aware outlines and cleaner segmented skins for reliable contrast on light panels
 - Restore-defaults button
 
 ## Screenshots
@@ -84,7 +86,9 @@ Copy `audio-spectrum@crazyswede` to `~/.local/share/cinnamon/applets/`, then add
 
 ## Configuration
 
-Right-click the applet and open its settings to configure the visualization, number of bars, sensitivity, bar geometry, height, alignment, animation speed, fall speed and peak hold.
+Right-click the applet and open its settings to configure the visualization, number of bars, sensitivity, bar geometry, height, alignment, panel color mode, animation speed, fall speed and peak hold.
+
+The **Panel color mode** setting defaults to **Auto detect**, which reads the panel background and applies the appropriate contrast treatment. **Light panel** and **Dark panel** can be selected manually for transparent or customized themes.
 
 ![Audio Spectrum settings](screenshots/settings.png)
 
